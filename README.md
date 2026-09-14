@@ -7,9 +7,23 @@ A collection of datasets for Lingala NLP: parallel sentence translations and pro
 | Directory | Description | Size |
 |---|---|---|
 | [`en-lin-parallel-corpus/`](en-lin-parallel-corpus/) | Parallel English–Lingala sentence pairs | 5,000 pairs |
-| [`lin-fr-proverbs/`](lin-fr-proverbs/) | Lingala proverbs with French translation and meaning | 150 proverbs |
+| [`lin-fr-proverbs/`](lin-fr-proverbs/) | Lingala proverbs with French translation and meaning | 500 proverbs |
+
 
 Each directory has its own README with format details, usage examples, and licensing.
+
+## Repository structure
+
+```
+.
+├── en-lin-parallel-corpus/
+│   ├── kit5k_en_lin.tsv    # 5,000 English–Lingala sentence pairs
+│   └── README.md
+└── lin-fr-proverbs/
+    ├── lin-fr-proverbs.tsv # 500 Lingala proverbs with French translation and meaning
+    ├── code.py             # appends new proverb entries to the TSV
+    └── README.md
+```
 
 ## Potential uses
 
