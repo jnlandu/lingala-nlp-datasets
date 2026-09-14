@@ -4,9 +4,16 @@ A parallel English–Lingala sentence pair dataset for machine translation, lang
 
 ## Contents
 
+<<<<<<< Updated upstream
 | File | Description |
 |---|---|
 | `kit5k_en_lin.tsv` | 5,000 English–Lingala sentence pairs, tab-separated |
+=======
+| Directory | Description | Size |
+|---|---|---|
+| [`en-lin-parallel-corpus/`](en-lin-parallel-corpus/) | Parallel English–Lingala sentence pairs | 5,000 pairs |
+| [`lin-fr-proverbs/`](lin-fr-proverbs/) | Lingala proverbs with French translation and meaning | 500 proverbs |
+>>>>>>> Stashed changes
 
 ## Format
 
@@ -44,6 +51,19 @@ Or with the Hugging Face `datasets` library:
 from datasets import load_dataset
 
 ds = load_dataset("csv", data_files="kit5k_en_lin.tsv", delimiter="\t")
+```
+
+## Repository structure
+
+```
+.
+├── en-lin-parallel-corpus/
+│   ├── kit5k_en_lin.tsv    # 5,000 English–Lingala sentence pairs
+│   └── README.md
+└── lin-fr-proverbs/
+    ├── lin-fr-proverbs.tsv # 500 Lingala proverbs with French translation and meaning
+    ├── code.py             # appends new proverb entries to the TSV
+    └── README.md
 ```
 
 ## Potential uses
