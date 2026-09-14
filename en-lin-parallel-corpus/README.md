@@ -23,7 +23,7 @@ Take one four times a day, after meals.	Kamataka yango moko mbala minei na mokol
 | `en` | Source sentence in English |
 | `lin` | Reference translation in Lingala |
 
-- 5,000 sentence pairs (5,001 lines including the header)
+- 5,070 sentence pairs (5,071 lines including the header)
 - Every row has exactly two tab-separated fields; no missing translations
 - 64 English source sentences appear more than once (e.g. common phrases translated in different contexts)
 - Sentences range from short everyday phrases to longer, more literary sentences
