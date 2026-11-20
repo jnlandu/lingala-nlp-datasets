@@ -6,7 +6,7 @@ A collection of Lingala proverbs paired with their French translation and a plai
 
 | File | Description |
 |---|---|
-| `lin-fr-proverbs.tsv` | 150 Lingala proverbs with French translation and meaning, tab-separated |
+| `lin-fr-proverbs.tsv` | 500 Lingala proverbs with French translation and meaning, tab-separated |
 | `code.py` | Script used to append new proverb entries to the TSV, deduplicating on the Lingala text |
 
 ## Format
@@ -25,7 +25,7 @@ Loboko moko ekoki te kosukola elongi.	Une seule main ne peut pas bien laver le v
 | `French` | Literal/direct French translation of the proverb |
 | `signification` | Plain-French explanation of the proverb's meaning/moral |
 
-- 150 proverbs (151 lines including the header)
+- 500 proverbs (501 lines including the header)
 - No duplicate Lingala entries
 - Proverbs are loosely grouped by theme (perseverance, family, wisdom, money, time, adaptability, etc.) in blocks of ten
 
@@ -78,7 +78,7 @@ If you use this dataset, please cite:
   author = {Mabiala, Jeremie},
   title  = {Lingala-French Proverbs: A Bilingual Proverb Dataset with Interpretations},
   year   = {2026},
-  note   = {lin-fr-proverbs.tsv, 150 proverbs}
+  note   = {lin-fr-proverbs.tsv, 500 proverbs}
 }
 ```
 
