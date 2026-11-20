@@ -1,6 +1,6 @@
 # Lingala Dataset
 
-A collection of datasets for Lingala NLP: parallel sentence translations and proverbs, intended for machine translation, language learning, and NLP research on Lingala, a Bantu language spoken by tens of millions of people across the Democratic Republic of the Congo, the Republic of the Congo, and neighboring regions.
+A collection of datasets for Lingala NLP: parallel sentence translations, proverbs and speech, intended for machine translation, language learning, and NLP research on Lingala, a Bantu language spoken by tens of millions of people across the Democratic Republic of the Congo, the Republic of the Congo, and neighboring regions.
 
 ## Datasets
 
@@ -8,6 +8,7 @@ A collection of datasets for Lingala NLP: parallel sentence translations and pro
 |---|---|---|
 | [`en-lin-parallel-corpus/`](en-lin-parallel-corpus/) | Parallel English–Lingala sentence pairs | 5,000 pairs |
 | [`lin-fr-proverbs/`](lin-fr-proverbs/) | Lingala proverbs with French translation and meaning | 150 proverbs |
+| [`lingala-stt/`](lingala-stt/) | Catalogue of Lingala broadcast news audio (Radio Okapi) for ASR, with the scraper; not yet transcribed | 31 bulletins, 5.6 h |
 
 Each directory has its own README with format details, usage examples, and licensing.
 
@@ -18,6 +19,7 @@ Each directory has its own README with format details, usage examples, and licen
 - Few-shot prompting or instruction-tuning data for LLMs
 - Bilingual dictionaries, phrase tables, and language-learning material
 - Cultural and linguistic NLP research
+- Building speech recognition data for Lingala
 
 ## License
 
